@@ -48,3 +48,26 @@ git config --global user.email "youremail@example.com"
 
 ### Delete a Branch
 `git branch -d <branch-name>`
+# Add a remote repository
+`git remote add <remote-name> <repository-url>`
+
+# List remote repositories
+`git remote -v`
+
+### Modify commit
+`git commit --amend`
+
+# Push changes to remote repository
+`git push <remote-name> <branch-name>`
+
+# Pull changes from remote repository
+`git pull <remote-name> <branch-name>`
+
+# Fetch changes from remote repository
+`git fetch <remote-name>`
+
+# Remove a remote repository
+`git remote remove <remote-name>`
+
+# Change the remote URL
+`git remote set-url <remote-name> <new-repository-url>`
